@@ -17,6 +17,7 @@ const PopupExample = () => {
 
   return (
     <div className={styles.container}>
+       
       <p>Узнать секретный ингредиент секретно-ингредиентного кода:</p>
       <button type="button" className={styles.button_door} onClick={handlOpen}>
         ⤴︎
