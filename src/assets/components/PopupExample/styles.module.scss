@@ -1,0 +1,55 @@
+@use "../../../styles/colors.scss" as *;
+
+.container {
+  padding: 20px;
+  margin: 20px;
+  background-color: $blue-sky;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.button_door {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: $white;
+  box-shadow: 0 0 2px $black;
+  transition: all 0.5s ease;
+  &:hover {
+    box-shadow: 0 0 5px $black;
+    border: 1px solid;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  button {
+    align-self: start;
+    margin: 15px;
+  }
+}
+
+.wrapper {
+  position: absolute;
+  width: 500px;
+  height: 350px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 0 5px $black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container_info {
+  padding: 20px;
+  img {
+    width: 100%;
+  }
+}
